@@ -36,7 +36,7 @@
 		<lettuce.version>5.3.4.RELEASE</lettuce.version>
 		<spring-data-redis.version>2.3.4.RELEASE</spring-data-redis.version>
 		<maven-dependency-plugin.version>2.10</maven-dependency-plugin.version>
-		<commons-lang3.version>3.9</commons-lang3.version>
+		<commons-lang3.version>3.11</commons-lang3.version>
 		<commons-pool2.version>2.9.0</commons-pool2.version>
 	</properties>
 
