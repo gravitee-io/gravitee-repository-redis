@@ -1,15 +1,16 @@
-= Gravitee Redis Repository
+= ⚠️ DEPRECATED
 
-ifdef::env-github[]
-image:https://ci.gravitee.io/buildStatus/icon?job=gravitee-io/gravitee-repository-redis/master["Build status", link="https://ci.gravitee.io/job/gravitee-io/job/gravitee-repository-redis"]
-image:https://badges.gitter.im/Join Chat.svg["Gitter", link="https://gitter.im/gravitee-io/gravitee-io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"]
-endif::[]
+This repository is no longer active, all the sources have been moved to a https://github.com/gravitee-io/gravitee-api-management/tree/master/gravitee-apim-repository/gravitee-apim-repository-redis[new monorepo].
 
-== Overview
+The new repository will be become the single GitHub repository for everything related to Gravitee.io API Management.
+
+== Gravitee Redis Repository
+
+=== Overview
 
 Redis repository based on Redis implementation
 
-== Requirement
+=== Requirement
 
 The minimum requirement is :
  * Maven3
@@ -19,7 +20,7 @@ For user gravitee snapshot, You need the declare the following repository in you
 
 https://oss.sonatype.org/content/repositories/snapshots
 
-== Building
+=== Building
 
 ```
 $ git clone https://github.com/gravitee-io/gravitee-repository-redis.git
@@ -27,11 +28,11 @@ $ cd gravitee-repository-redis
 $ mvn clean package
 ```
 
-== Installing
+=== Installing
 
 Unzip the gravitee-repository-redis-3.1.0-SNAPSHOT.zip in the gravitee home directory.
 
-== Configuration
+=== Configuration
 
   repository.redis options (standalone) :
 
